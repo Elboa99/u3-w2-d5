@@ -29,7 +29,7 @@ function Weatherinfo({ data }) {
                     <Col>
                       <Card.Text>
                         {data.main ? <p className='font-weight-bold'>{data.main.feels_like.toFixed()}°C</p> : null}
-                        Percepiti
+                        Perceived
                       </Card.Text>
                     </Col>
                     <Col>
